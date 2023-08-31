@@ -1,0 +1,154 @@
+/*----------GERAL------------*/
+
+body{
+	background: white;
+	width: 98.5%;
+	font-weight: 500;
+}
+
+h3{
+	font-weight: 700;
+}
+
+button{
+	background: #3065f8;
+	color: white;
+}
+
+button:hover{
+	opacity: 0.7;
+}
+
+/*----------PARTE1-----------*/
+#artigo1 input{
+	width: 50%;
+}
+
+#artigo1 button{
+	position: relative;
+	margin-left: 53%;
+	bottom: 36px;
+	width: 29%;
+}
+
+#divisor{
+	color: #f6f6fe;
+	height: 200px;
+	width: 101.5%;
+	position: relative;
+	top: 220px;
+	background: url(images/bg-curve-desktop.svg) no-repeat;
+}
+
+#result1{
+	font-size: 11px;
+	font-weight: 400;
+}
+
+/*-----------PARTE2----------*/
+#artigo2{
+	width: 102.65%;
+	background: #f6f6fe;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin-top: 10%;
+}
+
+#flecha{
+	color: #3c9f8f;
+}
+
+#flecha:hover{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+#linha{
+	margin-top: -5.5%;
+	color: #3c9f8f;
+	text-decoration: underline;
+}
+
+#quadro{
+	background: white;
+	width: 70%;
+	font-weight: 400;
+}
+
+#quadro img{
+	border-radius: 50%;
+}
+
+#span1{
+	font-weight: 700;
+	font-size: 11px;
+	position: relative;
+	bottom: 6px;
+}
+
+#span2{
+	font-weight: 400;
+	font-size: 9px;
+	position: relative;
+	bottom: 20px;
+	padding-left: 13%;
+}
+
+/*---------------PARTE3--------*/
+#secao3{
+	background: #585989;
+	padding-left: 8%;	
+}
+
+#artigo3 h4{
+	color: white;
+}
+
+#artigo3 input{
+	width: 70%;
+	font-size: 13px;
+}
+
+#artigo3 p {
+	color: 	#bfbfbf;
+}
+
+#artigo3 button{
+	width: 30%;
+}
+
+#result2{
+	font-size: 11px;
+	font-weight: 400;
+}
+
+#acesso{
+	padding-left: 5%;
+}
+
+/*-----------------FINAL--------*/
+footer{
+	color: 	#bfbfbf;
+	background: #070439;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-weight: 400;
+}
+
+footer p:hover{
+	color: #3065f8;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+footer i{
+	color: 	#bfbfbf;
+	border: 1px solid 	#bfbfbf;
+	border-radius: 50%;
+}
+
+i:hover{
+	border: 1px solid #3065f8;
+	color: #3065f8;
+	opacity: 0.7;
+}

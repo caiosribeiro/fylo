@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/047671d39d.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  <script>
+    function acao1(){
+      document.getElementById('result1').innerHTML = 'Please check your name'
+      document.getElementById('result1').style.color = 'red'
+      document.getElementById('email1').style.border = '1px solid red'
+      document.getElementById('btn1').style.marginTop = '-3.5%'
+    }
+
+    function acao2(){
+      document.getElementById('result2').innerHTML = 'Please check your name'
+      document.getElementById('result2').style.color = 'white'
+      document.getElementById('email2').style.border = '1px solid red'
+      document.getElementById('btn2').style.marginTop = '-3.5%'
+    }
+  </script>
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+</head>
+<body>
+  <header class="pt-5 pb-5">
+    <nav class="container nav navbar">
+      <img src="images/logo.svg">
+
+      <ul class="nav">
+        <li class="pr-5">Features</li>
+        <li class="pr-5 pl-5">Team</li>
+        <li class="pl-5">Sign In</li>
+      </ul>
+      
+    </nav>   
+  </header>
+  
+  <section class="container">
+    <article class="row pt-5" id="artigo1">
+      <div class="col-md-6 pt-5">
+        <h3 class="pb-2">
+          All your files in one secure<br> location, accessible anywhere.
+        </h3>
+        
+        <p>
+          Fylo stores your most important files in one secure location. 
+          Access<br> them wherever you need, share and collaborate with friends, 
+          family,<br> and co-workers.
+        </p>
+
+        <div>
+          <input type="email" placeholder="Enter your email..." class="pl-3 pt-1 pb-1" id="email1"></div>
+          <div id="result1"></div>
+          <button type="button" class=" btn" id="btn1" onclick="acao1()">Get Started</button>
+
+
+        </div>
+      </div>
+      
+      <img src="images/illustration-1.svg" class="col-md-6">
+    </article>
+  </section>
+
+  <div id="divisor">
+    .
+    .
+    .
+    .
+    .
+    .
+  </div>
+
+  <section id="secao2 mt5">
+    <article class="row pb-5" id="artigo2">
+      <div class="col-md-6 pb-5">
+        <h3 class="pb-4">Stay productive, wherever you are</h3>
+
+        <p>
+          Never let location be an issue when accessing your files. Fylo has you 
+          covered for all of your file storage needs.
+        </p>
+
+        <p>
+          Securely share files and folders with friends, family and colleagues for 
+          live collaboration. No email attachments required!
+        </p>
+          
+        <p id="flecha">
+        See how Fylo works
+        <img src="images/icon-arrow.svg">
+          <p id="linha" class="pb-5">________________________</p>
+        </p>
+
+        <div class="p-4" id="quadro">
+          <img src="images/icon-quotes.svg">
+
+          <p>
+            Fylo has improved our team productivity by<br> an order of magnitude. Since 
+            making the<br> switch our team has become a well-oiled<br> collaboration machine.
+          </p>
+          
+
+          <img src="images/avatar-testimonial.jpg" width="40px" class="pr-1">
+          <span id="span1">Kyle Burton</span><br>
+          <span id="span2">Founder & CEO, Huddle</span>
+        </div>      
+      </div>
+
+      <img src="images/illustration-2.svg" class="col-md-6">
+    </article>
+  </section>
+    
+  <section id="secao3" class="pb-4 pt-5">
+    <article class="pt-5 pb-5 row" id="artigo3">
+      <div class="col-md-6">
+        <h4 class="pb-2">Get early access today</h4>
+
+        <p>
+          It only takes a minute to sign up and our free starter tier is<br> extremely generous. 
+          If you have any questions, our support team<br> would be happy to help you. 
+        </p>
+      </div>
+      
+      
+      <div class="col-md-6" id="acesso">
+        <input type="email" placeholder="email.example.com" id="email2" class="mb-2 pt-2 pb-2 pl-4">
+        <div id="result2"></div>
+        <br>
+        <button type="btn" class="btn" id="btn2" onclick="acao2()">Get Started For Free</button>
+      </div>
+      
+    </article>
+  </section>
+
+  <footer class="pt-5 pb-5">
+    <img src="images/f-logo.svg" id="logo" class="pt-5 pb-3">
+    <div class="row">
+      <div class="col-md-3 pr-5">
+      <p>
+        <img src="images/icon-phone.svg" class="pr-3">
+        Phone: +1-543-123-4567
+      </p>
+
+      <p>
+        <img src="images/icon-email.svg" class="pr-3">
+        example@fylo.com
+      </p>
+      </div>
+        
+      <div class="col-md-3 pl-5">
+        <p>About Us</p>
+        <p>Jobs</p>
+        <p>Press</p>
+        <p>Blog</p>
+      </div>
+        
+      <div class="col-md-3 pl-5">
+        <p>Contact Us</p>
+        <p>Terms</p>
+        <p>Privacy</p>
+      </div> 
+    </div>
+    
+    <div class="col-md-12 mb-5">
+      <i class="fa-brands fa-facebook-f p-2 mr-2"></i>
+      <i class="fa-brands fa-twitter p-2 mr-2"></i>
+      <i class="fa-brands fa-instagram p-2"></i>
+    </div>  
+    
+          
+  </footer> 
+</body>
+</html>
