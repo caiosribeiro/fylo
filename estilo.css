@@ -27,7 +27,7 @@ button:hover{
 	position: relative;
 	margin-left: 53%;
 	bottom: 36px;
-	width: 29%;
+	width: 30%;
 }
 
 #divisor{
@@ -117,8 +117,9 @@ button:hover{
 	color: 	#bfbfbf;
 }
 
-#artigo3 button{
-	width: 30%;
+#btn2{
+	width: 50%;
+	font-size: 15px;
 }
 
 #result2{
@@ -162,6 +163,25 @@ i:hover{
 	ul li{
 		padding-left: 0;
 		margin-right: -15%;
+
+	}
+
+	#btn2{
+		width: 60%;
+	}
+
+	#artigo1 button{
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width:300px){
+	#btn2{
+		width: 70%;
+	}
+
+	#artigo1 button{
+		width: 45%;
 	}
 }
 
