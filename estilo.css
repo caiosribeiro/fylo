@@ -1,299 +1,192 @@
-/*-------------GERAL--------*/
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Raleway:wght@100&display=swap');
-
-h1, h2{
-	font-family: Poppins;
-	font-weight: 700;
-}
-
+/*----------GERAL------------*/
 body{
-	color: #00252e;
-	font-family: Open Sans;
-	font-weight: 400;
+	background: white;
 	width: 100%;
-}
-
-button{
-	border: 1px solid #ff52bf;
-	border-radius: 50px;
-	color: white;
-	background: white;
-	width: 25%;
-	background: #ff52bf;
-}
-
-button:hover{
-	border: 1px solid #ff8fd8;
-	background-color: #ff8fd8;
-	cursor: pointer;
-}
-
-.containers{
-	margin-left: 6.5%;
-}
-
-/*------------COMEÇO--------*/
-header{
-	width: 100%;
-}
-
-header button{
-	float: right;
-	border: 1px solid #ff52bf;
-	border-radius: 50px;
-	color: 	#ff52bf;
-	background: white;
-	width: 12%;
-	position: relative;
-	right: 10%;
-}
-
-header button:hover{
-	background: white;
-	color: #ff8fd8;
-	border: 1px solid #ff8fd8;
-	box-shadow: 0px 0px 1px 0px #ff8fd8;
-	opacity: 0.7;
-}
-
-header p {
 	font-weight: 500;
 }
 
-
-/*---------PARTE1------------*/
-.numerosImg{
-	float: left;
-}
-
-.aumentaNumero{
-	font-size: 70px;
+h3{
 	font-weight: 700;
 }
 
-#secao1{
-	text-align: center;
+button{
+	background: #3065f8;
+	color: white;
 }
 
-#secao1 h1{
-	font-size: 50px;
+button:hover{
+	opacity: 0.7;
 }
 
-#img1{
-	width: 75%;
+/*----------PARTE1-----------*/
+#artigo1 input{
+	width: 50%;
 }
 
-#ajusteImg{
+#artigo1 button{
 	position: relative;
-	right: 70px;
+	margin-left: 53%;
+	bottom: 36px;
+	width: 30%;
 }
 
-
-/*-----------------PARTE2---------*/
-.sombra{
-	font-size: 18px;
-	opacity: 0.5;
-}
-
-.ajuste{
-	width: 90%;
-}
-
-#divisorTop1{
-	background: url(images/bg-section-top-desktop-1.svg) no-repeat;
+#divisor{
+	color: #f6f6fe;
 	height: 200px;
-	background-size: 100%;
+	width: 100%;
 	position: relative;
-	top: 47px;
+	top: 220px;
+	background: url(images/bg-curve-desktop.svg) no-repeat;
 }
 
-#divisorBottom1{
-	background: url(images/bg-section-bottom-desktop-1.svg) no-repeat;
-	height: 200px;
-	background-size: 100%;
-	position: relative;
-	bottom: 49px;
-}
-
-#secao2 #artigo1{
-	background: #f5faff;
-}
-
-/*---------------PARTE4------------*/
-#secao2 #artigo3{
-	background: #f5faff;
-}
-
-#divisorTop2{
-	background: url(images/bg-section-top-desktop-2.svg) no-repeat;
-	height: 200px;
-	background-size: 100%;
-	position: relative;
-	top: 105px;
-}
-
-#divisorBottom2{
-	background: url(images/bg-section-bottom-desktop-2.svg) no-repeat;
-	height: 200px;
-	background-size: 100%;
-	position: relative;
-}
-
-/*-------------PARTE5--------------*/
-#artigo4{
-	text-align: center;
-}
-
-/*--------------FINAL--------------*/
-footer{
-	background: #00252e;
-	color: #f5faff;
+#result1{
+	font-size: 11px;
 	font-weight: 400;
 }
 
-footer button{
-	border-radius: 5px;
-	color: white;
-	background: #ff52bf;
-	border: 2px solid blue;
+/*-----------PARTE2----------*/
+#artigo2{
+	width: 100%;
+	background: #f6f6fe;
+	padding-left: 8%;
+	padding-right: 8%;
+	margin-top: 10%;
 }
 
-footer input{
-	width: 58%;
-	border-radius: 5px;
+
+#flecha{
+	color: #3c9f8f;
 }
 
-footer input:hover{
-	border: 1px solid red;
+#flecha:hover{
+	opacity: 0.7;
 	cursor: pointer;
+}
+
+#linha{
+	margin-top: -5.5%;
+	color: #3c9f8f;
+	text-decoration: underline;
+}
+
+#quadro{
+	background: white;
+	width: 70%;
+	font-weight: 400;
+}
+
+#quadro img{
+	border-radius: 50%;
+}
+
+#span1{
+	font-weight: 700;
+	font-size: 11px;
+	position: relative;
+	bottom: 6px;
+}
+
+#span2{
+	font-weight: 400;
+	font-size: 9px;
+	position: relative;
+	bottom: 20px;
+	padding-left: 13%;
+}
+
+/*---------------PARTE3--------*/
+#secao3{
+	background: #585989;
+	padding-left: 8%;
+}
+
+#artigo3{
+	width:100%;
+}
+
+#artigo3 h4{
+	color: white;
+}
+
+#artigo3 input{
+	width: 70%;
+	font-size: 13px;
+}
+
+#artigo3 p {
+	color: 	#bfbfbf;
+}
+
+#btn2{
+	width: 50%;
+	font-size: 15px;
+}
+
+#result2{
+	font-size: 11px;
+	font-weight: 400;
+}
+
+#acesso{
+	padding-left: 5%;
+}
+
+/*-----------------FINAL--------*/
+footer{
+	color: 	#bfbfbf;
+	background: #070439;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-weight: 400;
+}
+
+footer p:hover{
+	color: #3065f8;
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+footer i{
+	color: 	#bfbfbf;
+	border: 1px solid 	#bfbfbf;
+	border-radius: 50%;
 }
 
 i:hover{
-	cursor: pointer;
-	color: cyan;
-}
-
-#result{
-	font-weight: 400;
-}
-
-#divisorTop3{
-	background: url(images/bg-footer-top-desktop.svg) top no-repeat;
-	height: 160px;
-	background-size: 100%;
-	position: relative;
-	top: 20px;
-}
-
-#detalhe{
-	text-transform: uppercase;
-	font-size: 20px;
-	font-weight: 600;
+	border: 1px solid #3065f8;
+	color: #3065f8;
+	opacity: 0.7;
 }
 
 
-@media only screen and (max-width: 991px){
-	button{
-		width: 35%;
-	}
-}
+@media only screen and (max-width: 374px){
+	ul li{
+		padding-left: 0;
+		margin-right: -15%;
 
-
-@media only screen and (max-width: 958px){
-	header button{
-		width: 15%;
-	}	
-}
-
-@media only screen and (max-width: 770px){
-	header button{
-		width: 20%;
 	}
 
-	button{
-		width: 45%;
+	#btn2{
+		width: 60%;
 	}
 
-	#btn{
-		width: 20%;
-	}
-}
-
-@media only screen and (max-width: 578px){
-	header button{
-		top: 50px;
-		right: 50%;
-		width: 25%;
-	}
-
-	button{
-		width: 55%;
-	}
-
-	#btn{
-		width: 25%;
-	}
-}
-
-@media only screen and (max-width: 464px){
-	header button{
-		top: -100px;
-		width: 30%;
-	}
-
-	button{
-		width: 65%;
-	}
-
-	#btn{
-		width: 30%;
-	}
-}
-
-
-@media only screen and (max-width: 386px){
-	header button{
-		width: 35%;
-		right: 30%;
-	}
-
-	button{
-		width: 77%;
-	}
-
-	#btn{
-		width: 35%;
-	}
-
-	footer input{
-		width: 90%;
-	}
-}
-
-@media only screen and (max-width: 332px){
-	header button{
+	#artigo1 button{
 		width: 40%;
 	}
+}
 
-	button{
-		width: 87%;
+@media only screen and (max-width:300px){
+	#btn2{
+		width: 70%;
 	}
 
-	#btn{
+	#artigo1 button{
 		width: 45%;
 	}
 }
 
-@media only screen and (max-width: 293px){
-	header button{
-		width: 45%;
-	}
-
-	button{
-		width: 100%;
-	}
-
-	#btn{
-		width: 50%;
+@media only screen and (max-width:278px){
+	ul li{
+		margin-right: -30%;
 	}
 }
